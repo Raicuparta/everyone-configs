@@ -1,0 +1,6 @@
+{
+  "$schema": "../config-schema.json",
+  "LocalPlayerObjectName": "_Boy",
+  "LocalPlayerObjectChildPath": "_BoyPreprocessed/visual/Boy/Head",
+  "RemotePlayerShaderName": "Playdead/Self Illuminate/Textured Cutout"
+}
