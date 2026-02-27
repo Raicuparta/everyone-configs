@@ -1,6 +1,14 @@
 {
   "$schema": "../config-schema.json",
-  "LocalPlayerObjectName": "_Boy",
-  "LocalPlayerObjectChildPath": "_BoyPreprocessed/visual/Boy/Head",
-  "RemotePlayerShaderName": "Playdead/Self Illuminate/Textured Cutout"
+  "LocalPlayer": {
+    "Include": [
+      {
+        "ObjectName": "_Boy",
+        "ChildPath": "_BoyPreprocessed/visual/Boy/Head"
+      }
+    ]
+  },
+  "Rendering": {
+    "ShaderName": "Playdead/Self Illuminate/Textured Cutout"
+  }
 }
